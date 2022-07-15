@@ -1,0 +1,237 @@
+:root {
+  --title-text-color: #212121;
+  --acept-color: #757575;
+  --white-color: #ffffff;
+}
+
+/* <<<---BODY--->>> */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--acept-color);
+}
+.text-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* <<<---HEADER--->>> */
+
+.logo {
+  color: #2196f3;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-secondary {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.nav-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-link-address {
+  color: var(--acept-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+}
+/* <<<---MAIN--->>> */
+/* ---------------- */
+/* <<<---HERO--->>> */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--white-color);
+  background-color: #2196f3;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
+/* <<<---НАШЕ ПРЕИМУЩИСТВО--->>> */
+
+.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.after-title {
+  color: var(--acept-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* <<<---ЧЕМ МИ ЗАНЕМАЕМСЯ--->>> */
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* <<<---НАША КОМАНДА--->>> */
+.list-team {
+  background-color: var(--white-color);
+}
+
+.title-team {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.position-team {
+  color: var(--acept-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* <<<---FOOTER--->>> */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .footer-logo {
+  color: var(--white-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.footer .footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.section {
+  background-color: #f5f4fa;
+}
+
+.address:hover,
+.addres:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: #2196f3;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link-address:hover,
+.nav-link-address:focus {
+  color: #2196f3;
+}
+
+/* ---portfolio--- */
+
+/* <<<---PORTFOLIO HEADER--->>>*/
+
+.portfolio-btn {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-color);
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.after-title {
+  color: var(--acept-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.current {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
