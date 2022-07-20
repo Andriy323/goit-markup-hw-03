@@ -11,6 +11,28 @@ body {
   letter-spacing: 0.02em;
   color: var(--acept-color);
 }
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .text-hidden {
   position: absolute;
   width: 1px;
@@ -40,14 +62,11 @@ body {
 }
 
 .nav {
-  align-items:center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
+  align-items:center;
+  
 }
- .nav .site-nav {
-  margin-left: 93px;
- }
+ 
 .site-nav {
   display: flex;
   margin-left: auto;
@@ -55,10 +74,10 @@ body {
   
 }
 
-.site-nav .nav-item + .nav-item {
- margin-left: 50px;
-
+.site-nav .nav-item:not(:last-child) {
+  margin-right: 50px;
 }
+
 
 .logo {
   color: #2196f3;
@@ -79,10 +98,18 @@ body {
 }
 
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  
+  
+}
+.nav-link-logo {
+  margin-right: 93px;
 }
 
 
@@ -133,11 +160,7 @@ body {
   background-color: #188ce8;
 }
 
-h1,
-h2,
-h3 {
-  margin: 0;
-}
+
 
 
 .style {
@@ -149,10 +172,14 @@ h3 {
   list-style: none;
   display: flex;
 }
-.style-items:not(:last-child){
+/* .style-items:not(:last-child){
   margin-right: 30px;
   max-width: 270px;
   
+} */
+
+.stile-items {
+  column-gap: 30px;
 }
 
 .style-title {
@@ -175,12 +202,7 @@ h3 {
 
 
 
-.container {
-  width: 1200px;
 
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* <<<---НАШЕ ПРЕИМУЩИСТВО--->>> */
 
@@ -218,11 +240,24 @@ h3 {
 .work-list {
   display: flex;
   list-style: none;
+  
+
 
 }
-.work-items:not(:last-child) {
+
+
+
+.work-items {
   margin-right: 30px;
+  
 }
+
+.work-items:last-child {
+margin-right: 0;
+  
+}
+
+
 
 /* <<<---НАША КОМАНДА--->>> */
 
