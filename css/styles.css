@@ -56,6 +56,10 @@ img {
   list-style: none;
 }
 
+.section {
+  padding: var(--section-padding) 0;
+}
+
 /* <<<---HEADER--->>> */
 
 .header {
@@ -159,10 +163,6 @@ img {
   background-color: #188ce8;
 }
 
-.style {
-  padding: var(--section-padding) 0;
-}
-
 .style-list {
   gap: 30px;
   display: flex;
@@ -221,7 +221,7 @@ img {
 }
 
 .work {
-  padding: var(--section-padding) 0;
+  padding-top: 0;
 }
 
 .work-list {
@@ -240,7 +240,6 @@ img {
 /* <<<---НАША КОМАНДА--->>> */
 
 .team-section {
-  padding: var(--section-padding) 0;
   background: #f5f4fa;
 }
 
@@ -267,8 +266,12 @@ img {
   background-color: #ffffff;
 }
 
+.team-block-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .title-team {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -278,8 +281,6 @@ img {
 }
 
 .position-team {
-  margin-bottom: 30px;
-  margin-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -289,6 +290,8 @@ img {
 /* <<<---FOOTER--->>> */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -301,13 +304,9 @@ img {
   color: var(--white-color);
 }
 
-.address {
-  padding-bottom: 60px;
-}
-
 .footer-link-logo {
   margin-bottom: 20px;
-  padding-top: 60px;
+
   display: inline-block;
 }
 
@@ -336,9 +335,9 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.section {
+/* .section {
   background-color: #f5f4fa;
-}
+} */
 
 .address:hover,
 .addres:focus,
@@ -350,10 +349,6 @@ img {
 /* ---portfolio--- */
 
 /* <<<---PORTFOLIO HEADER--->>>*/
-
-.portfolio-section {
-  padding: var(--section-padding) 0;
-}
 
 .portfolio-btn {
   padding: 6px 22px;
@@ -371,7 +366,6 @@ img {
 }
 
 .portfolio-title {
-  padding-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -389,8 +383,7 @@ img {
 
 .portfolio-after-title {
   margin-top: 4px;
-  margin-bottom: 20px;
-  display: inline-block;
+
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -417,7 +410,6 @@ img {
 .btn-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
 }
 
 .btn-items {
@@ -441,8 +433,7 @@ img {
 }
 
 .project-border {
-  padding-right: 24px;
-  padding-left: 24px;
+  padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
